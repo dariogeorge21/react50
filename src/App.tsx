@@ -5,6 +5,7 @@ import MainContent from "./components/MainContent/MainContent"
 import JSXRules from "./components/JSXRules/JSXRules"
 import Greeting from "./components/Greeting/Greeting"
 import ProductInfo from "./components/ProductInfo/ProductInfo"
+import Mapping from "./components/Mapping/Mapping"
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <JSXRules />
       <Greeting />
       <ProductInfo />
+      <Mapping />
       
     </div>
   )

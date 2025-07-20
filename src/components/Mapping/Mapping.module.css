@@ -1,0 +1,38 @@
+.container{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px ;
+}
+.heading{
+    margin: 20px;
+}
+.list{
+    font-weight: 100;
+    padding: 5px;
+    display: inline;
+    margin: 10px;
+}
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 10px;
+}
+.tablerow{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.tableitem{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.tablerow{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
