@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header"
 import "./App.css"
 import  Footer from "./components/Footer/Footer"
+import MainContent from "./components/MainContent/MainContent"
 
 
 const App = () => {
@@ -8,6 +9,8 @@ const App = () => {
     <div>
       <Header />
       <Footer />
+      <MainContent />
+      
     </div>
   )
 }
