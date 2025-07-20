@@ -1,4 +1,4 @@
-
+import styles from './Header.module.css'
 
 type Nav = {
   label: string,
@@ -14,7 +14,7 @@ const NavItems:Nav[] = [
 const Header = () => {
   return (
     <div>
-      <header className="header">
+      <header className={styles.header}>
         <h1>Welcome to React50 course.</h1>
         <nav>
           <ul>
