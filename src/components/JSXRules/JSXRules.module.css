@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    padding : 20px;
+    flex-direction: column;
+    
+    margin: 20px;
+}
+.header{
+    text-align: center;
+}
+.li{
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    text-align: left;
+    list-style: lower-latin;
+    margin-left: 40px;
+}
