@@ -4,6 +4,7 @@ import  Footer from "./components/Footer/Footer"
 import MainContent from "./components/MainContent/MainContent"
 import JSXRules from "./components/JSXRules/JSXRules"
 import Greeting from "./components/Greeting/Greeting"
+import ProductInfo from "./components/ProductInfo/ProductInfo"
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <MainContent />
       <JSXRules />
       <Greeting />
-      
+      <ProductInfo />
       
     </div>
   )
