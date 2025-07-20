@@ -3,6 +3,7 @@ import "./App.css"
 import  Footer from "./components/Footer/Footer"
 import MainContent from "./components/MainContent/MainContent"
 import JSXRules from "./components/JSXRules/JSXRules"
+import Greeting from "./components/Greeting/Greeting"
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       <Footer />
       <MainContent />
       <JSXRules />
+      <Greeting />
+      
       
     </div>
   )
