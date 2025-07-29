@@ -8,7 +8,7 @@ import ProductInfo from "./components/ProductInfo/ProductInfo"
 import Mapping from "./components/Mapping/Mapping"
 import Person from "./components/Person/Person"
 import Product from "./components/Product/Product"
-
+import Children from "./components/Children/Children"
 
 const App = () => {
 
@@ -22,6 +22,12 @@ const App = () => {
       <Mapping />
       <Person name="Dario" age={18} />
       <Product name="Lenovo Legion 7" price={75000} />
+      <Children>
+        <h1>Card 1</h1>
+        <p>Content 1</p>
+      </Children>
+
+
       <Footer />
     </div>
   )
