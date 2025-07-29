@@ -1,0 +1,13 @@
+.person{
+    background-color: #eee;
+}
+.heading{
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+}
+.age{
+    color: blue;
+    text-align: center;
+    font-size: 1.5rem;
+}

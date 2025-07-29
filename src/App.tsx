@@ -6,18 +6,21 @@ import JSXRules from "./components/JSXRules/JSXRules"
 import Greeting from "./components/Greeting/Greeting"
 import ProductInfo from "./components/ProductInfo/ProductInfo"
 import Mapping from "./components/Mapping/Mapping"
+import Person from "./components/Person/Person"
+
 
 const App = () => {
+
   return (
     <div>
       <Header />
-      <Footer />
       <MainContent />
       <JSXRules />
       <Greeting />
       <ProductInfo />
       <Mapping />
-      
+      <Person name="Dario" age={18} />
+      <Footer />
     </div>
   )
 }
