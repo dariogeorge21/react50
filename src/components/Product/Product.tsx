@@ -2,11 +2,16 @@ import styles from './Product.module.css';
 
 
 
-const Product = (props: any) => {
+type ProductProps = {
+  name: string;
+  price: number;
+};
+
+const Product = ({ name, price }: ProductProps) => {
   return (
     <div className={styles.product}>
-      <h2 className={styles.name}>Product: {props.name}</h2>
-      <p className={styles.price}>Price: {props.price}</p>
+      <h2 className={styles.name}>Product: {name}</h2>
+      <p className={styles.price}>Price: {price}</p>
     </div>
   )
 }
