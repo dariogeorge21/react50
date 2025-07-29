@@ -1,0 +1,14 @@
+.product{
+    background-color: azure;
+    margin:2px;
+    padding: auto;
+}
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.price{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
