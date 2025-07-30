@@ -9,6 +9,8 @@ import Mapping from "./components/Mapping/Mapping"
 import Person from "./components/Person/Person"
 import Product from "./components/Product/Product"
 import Children from "./components/Children/Children"
+import Weather from "./components/Weather/Weather"
+
 
 const App = () => {
 
@@ -26,7 +28,7 @@ const App = () => {
         <h1>Card 1</h1>
         <p>Content 1</p>
       </Children>
-
+      <Weather temperature={99}/>
 
       <Footer />
     </div>
