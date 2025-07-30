@@ -10,6 +10,8 @@ import Person from "./components/Person/Person"
 import Product from "./components/Product/Product"
 import Children from "./components/Children/Children"
 import Weather from "./components/Weather/Weather"
+import UserStatus from "./components/UserStatus/UserStatus"
+
 
 
 const App = () => {
@@ -29,6 +31,7 @@ const App = () => {
         <p>Content 1</p>
       </Children>
       <Weather temperature={99}/>
+      <UserStatus isAdmin={false} loggedIn={true}/>
 
       <Footer />
     </div>
